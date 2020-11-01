@@ -6,8 +6,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "start": "node -r module-alias/register ./dist --NODE_ENV=production",
-    "start:dev": "nodemon",
-    "test": "nodemon --config ./spec/nodemon.json"
+    "start:dev": "nodemon"
   },
   "nodemonConfig": {
     "watch": [
